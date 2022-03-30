@@ -27,18 +27,16 @@ body {
 }
 
 .btn {
-  display: inline-block;
-  padding: 21px 56px;
-  color: $light;
   font-family: $main-font;
-  font-style: normal;
+  text-transform: uppercase;
+  padding: 21px 56px;
   font-weight: 900;
   font-size: 18px;
   line-height: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #ffffff;
-  border: 2px solid $light;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $dark;
+  border-radius: 0;
 }
 
 .section__title {
@@ -208,7 +206,7 @@ body {
 .blog {
   padding-bottom: 85px;
 
-  &__img {
+  &__post-img {
     width: 100px;
     height: 344px;
     object-fit: cover;
@@ -217,7 +215,7 @@ body {
 
   &__post-title {
     margin: 0 0 15px 0;
-    font-family: $main-font fon;
+    font-family: $main-font;
     font-style: normal;
     font-weight: bold;
     line-height: 26px;
@@ -248,7 +246,7 @@ body {
     }
   }
 
-  &-leed {
+  &__post-leed {
     font-family: $main-font;
     font-style: normal;
     font-weight: 400;
@@ -278,7 +276,7 @@ body {
     margin: o;
     font-family: $secondary-font;
     font-style: italic;
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 20px;
     line-height: 27px;
     text-transform: capitalize;
